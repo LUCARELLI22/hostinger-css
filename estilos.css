@@ -1,20 +1,23 @@
 
 
 
-:root{
+:root
+{
     --ff-gral:"DM Sans", sans-serif;
     --color-article:#FAFBFF;
     --color-star:#00B192;
 }
 
-*{
+*
+{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
 }
 
-.section{
+.section
+{
     display: flex;
     justify-content: space-between;
 gap: 20px;
@@ -23,7 +26,8 @@ font-family: "DM Sans", sans-serif;
 }
 
 
-article{
+article
+{
     border: solid 0px;
     background-color: var(--color-article);
     height: 250px;
@@ -31,14 +35,22 @@ article{
 
 }
 
-h1{margin-bottom: 20px;
+h1
+{margin-bottom: 20px;
     padding-bottom: 5px;
 }
 
-p{margin-bottom: 45px;
+p
+{margin-bottom: 45px;
     color:  rgb(47, 28, 106);
     font-weight: 550;
 }
 
-button{ float: right; border: none; background-color: var(--color-article);
+button
+{ float: right; border: none; background-color: var(--color-article);
+
+}
+
+.section .signo
+{float: right;
 }
